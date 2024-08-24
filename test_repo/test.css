@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 2% 0 0 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 2% 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex: 1 1 40%;
+    border: 5px solid pink;
+    border-radius: 7px;
+    background-color: azure;
+    padding: 20px;
+}
+
+.child:last-child {
+    flex: 1 1 100%;
+}
